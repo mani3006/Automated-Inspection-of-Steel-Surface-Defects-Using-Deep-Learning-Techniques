@@ -1,0 +1,228 @@
+{
+  "steel_good_01": {
+    "id": "steel_good_01",
+    "filename": "steel_good_01.jpg",
+    "url": "/static/images/steel_good_01.jpg",
+    "status": "Good",
+    "defect_type": "None",
+    "boxes": [],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "steel_good_02": {
+    "id": "steel_good_02",
+    "filename": "steel_good_02.jpg",
+    "url": "/static/images/steel_good_02.jpg",
+    "status": "Good",
+    "defect_type": "None",
+    "boxes": [],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "steel_scratch_01": {
+    "id": "steel_scratch_01",
+    "filename": "steel_scratch_01.jpg",
+    "url": "/static/images/steel_scratch_01.jpg",
+    "status": "Not Good",
+    "defect_type": "Scratches",
+    "boxes": [
+      {
+        "x": 411,
+        "y": 50,
+        "w": 109,
+        "h": 55,
+        "label": "Scratches"
+      },
+      {
+        "x": 256,
+        "y": 196,
+        "w": 112,
+        "h": 49,
+        "label": "Scratches"
+      }
+    ],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "steel_inclusion_01": {
+    "id": "steel_inclusion_01",
+    "filename": "steel_inclusion_01.jpg",
+    "url": "/static/images/steel_inclusion_01.jpg",
+    "status": "Not Good",
+    "defect_type": "Inclusion",
+    "boxes": [
+      {
+        "x": 275.3488038069362,
+        "y": 139.06634995337077,
+        "w": 219.6354325512471,
+        "h": 192.92442462835572,
+        "label": "Inclusion"
+      }
+    ],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "steel_patches_01": {
+    "id": "steel_patches_01",
+    "filename": "steel_patches_01.jpg",
+    "url": "/static/images/steel_patches_01.jpg",
+    "status": "Not Good",
+    "defect_type": "Patches",
+    "boxes": [
+      {
+        "x": 106,
+        "y": 274,
+        "w": 129,
+        "h": 105,
+        "label": "Patches"
+      }
+    ],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "steel_pitted_01": {
+    "id": "steel_pitted_01",
+    "filename": "steel_pitted_01.jpg",
+    "url": "/static/images/steel_pitted_01.jpg",
+    "status": "Not Good",
+    "defect_type": "Pitted Surface",
+    "boxes": [
+      {
+        "x": 110,
+        "y": 81,
+        "w": 80,
+        "h": 80,
+        "label": "Pitted Surface"
+      }
+    ],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "steel_rolled_01": {
+    "id": "steel_rolled_01",
+    "filename": "steel_rolled_01.jpg",
+    "url": "/static/images/steel_rolled_01.jpg",
+    "status": "Not Good",
+    "defect_type": "Rolled-in Scale",
+    "boxes": [
+      {
+        "x": 88,
+        "y": 316,
+        "w": 318,
+        "h": 15,
+        "label": "Rolled-in Scale"
+      }
+    ],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "steel_crazing_01": {
+    "id": "steel_crazing_01",
+    "filename": "steel_crazing_01.jpg",
+    "url": "/static/images/steel_crazing_01.jpg",
+    "status": "Not Good",
+    "defect_type": "Crazing",
+    "boxes": [
+      {
+        "x": 211,
+        "y": 100,
+        "w": 140,
+        "h": 140,
+        "label": "Crazing"
+      }
+    ],
+    "width": 640,
+    "height": 480,
+    "is_augmented": false
+  },
+  "aug_d4628b70": {
+    "id": "aug_d4628b70",
+    "filename": "aug_d4628b70_aug__180deg.jpg",
+    "url": "/static/images/aug_d4628b70_aug__180deg.jpg",
+    "status": "Good",
+    "defect_type": "None",
+    "boxes": [],
+    "width": 640,
+    "height": 480,
+    "is_augmented": true,
+    "parent_id": "steel_good_01"
+  },
+  "aug_1f48a9d4": {
+    "id": "aug_1f48a9d4",
+    "filename": "aug_1f48a9d4_aug__0deg.jpg",
+    "url": "/static/images/aug_1f48a9d4_aug__0deg.jpg",
+    "status": "Good",
+    "defect_type": "None",
+    "boxes": [],
+    "width": 640,
+    "height": 480,
+    "is_augmented": true,
+    "parent_id": "steel_good_01"
+  },
+  "custom_25a876ed": {
+    "id": "custom_25a876ed",
+    "filename": "custom_25a876ed_2026-10-13_10-52-56_Scratch_aug_1a8d821836a44fb4bf80d09bcae04ed4.jpg",
+    "url": "/static/images/custom_25a876ed_2026-10-13_10-52-56_Scratch_aug_1a8d821836a44fb4bf80d09bcae04ed4.jpg",
+    "status": "Not Good",
+    "defect_type": "Unlabeled",
+    "boxes": [],
+    "width": 540,
+    "height": 239,
+    "is_augmented": false
+  },
+  "aug_5aa119da": {
+    "id": "aug_5aa119da",
+    "filename": "aug_5aa119da_aug__0deg.jpg",
+    "url": "/static/images/aug_5aa119da_aug__0deg.jpg",
+    "status": "Not Good",
+    "defect_type": "Unlabeled",
+    "boxes": [],
+    "width": 540,
+    "height": 239,
+    "is_augmented": true,
+    "parent_id": "custom_25a876ed"
+  },
+  "aug_516807fc": {
+    "id": "aug_516807fc",
+    "filename": "aug_516807fc_aug__0deg.jpg",
+    "url": "/static/images/aug_516807fc_aug__0deg.jpg",
+    "status": "Good",
+    "defect_type": "None",
+    "boxes": [],
+    "width": 640,
+    "height": 480,
+    "is_augmented": true,
+    "parent_id": "steel_good_02"
+  },
+  "aug_630013ea": {
+    "id": "aug_630013ea",
+    "filename": "aug_630013ea_aug__0deg.jpg",
+    "url": "/static/images/aug_630013ea_aug__0deg.jpg",
+    "status": "Good",
+    "defect_type": "None",
+    "boxes": [],
+    "width": 640,
+    "height": 480,
+    "is_augmented": true,
+    "parent_id": "steel_good_02"
+  },
+  "aug_181d8d5c": {
+    "id": "aug_181d8d5c",
+    "filename": "aug_181d8d5c_aug_fv_90deg.jpg",
+    "url": "/static/images/aug_181d8d5c_aug_fv_90deg.jpg",
+    "status": "Not Good",
+    "defect_type": "Unlabeled",
+    "boxes": [],
+    "width": 239,
+    "height": 540,
+    "is_augmented": true,
+    "parent_id": "aug_5aa119da"
+  }
+}
